@@ -22,7 +22,7 @@ function dibujoPorClick() {
     var espacio = d.height / lineas;
     let initY = 0;
 
-
+    
     for (l = 0; l < lineas; l++) {
         dibujarLinea(colorcito, 0, initY, 300, initY);
         initY = initY + espacio;
@@ -33,5 +33,6 @@ function dibujoPorClick() {
         dibujarLinea(colorcito, initY, 300, initY, 0);
         initY = initY + espacio
     }
+    // adding a comment
 
 }
