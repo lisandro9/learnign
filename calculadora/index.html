@@ -1,0 +1,19 @@
+<html>
+    <head>
+       <title>Usted pesa aqui joven</title>
+    </head>
+<body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la tierra pesas distinto que en marte</p>
+    <p>Su peso en marte es:</p>
+    <script>
+        var gTierraEnVerano = 9.8;
+        var gMarte = 3.7;
+        var morro = prompt("Cuanto pesa pirobo?");
+        var peso = parseFloat(morro)
+        var peso_final;
+        peso_final = peso * gMarte / gTierraEnVerano;
+        document.write(peso_final.toFixed(2));
+    </script>
+</body>
+</html> 

@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Usted pesa aqui joven</title>
+</head>
+
+<body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la tierra pesas distinto que en marte</p>
+    
+    <script>
+        var gTierra = 9.8;
+        var gMarte = 3.7;
+        var gJupiter = 24.8;
+        var morro = prompt("Cuanto pesa pirobo?");
+        var peso = parseFloat(morro)
+        var planeta = parseInt(prompt("Elige el planeta\n 1 para marte, 2 para jupiter"));
+        var peso_final = 0;
+        if (planeta == 1) {
+            document.write("Tu peso en marte es: ")
+            peso_final = peso * gMarte / gTierra;
+        }
+
+        else if (planeta == 2) {
+            document.write("tu peso en jupiter es: ");
+
+            peso_final = peso * gJupiter / gTierra;
+        }
+       else
+       {
+           alert ("._.XD");
+       }
+        document.write(peso_final.toFixed(2));
+        
+        
+        
+
+    </script>
+</body>
+
+</html>
