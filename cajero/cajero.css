@@ -1,0 +1,31 @@
+.login-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.login-control {
+    margin: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numpad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.numpad .number-control { 
+ padding: 0.5em;
+ background-color: #f0f0f0;
+ border: 1px solid #000;
+ width: 30px;
+ height: 30px;
+ line-height: 25px;
+ text-align: center;
+ margin-top: 10px;
+ margin-right: 25%;
+}
